@@ -1,0 +1,23 @@
+{
+  "name": "famous",
+  "description": "A starter project for Famo.us.",
+  "version": "0.0.0",
+  "main": "app/index.html",
+  "moduleType": [
+    "amd"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "src/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.11",
+    "almond": "~0.2.9",
+    "famous-polyfills": "git+https://github.com/Famous/polyfills.git#0.1.1",
+    "famous": "~0.2.2"
+  }
+}
